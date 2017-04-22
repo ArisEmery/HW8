@@ -4,14 +4,19 @@
 #include "ConfigurationTester.h"
 #include "DenialOfServiceAnalyzerTester.h"
 #include "PortScanAnalyzerTester.h"
+#include "ResultSetTester.h"
 int main(){
     ConfigurationTester myConfigurationTester;
     myConfigurationTester.testConfParameters();
     myConfigurationTester.testReturnAsInt();
     myConfigurationTester.testReturnAsDouble();
-    DenialOfServiceAnalyzerTester myDOSTester;
-    myDOSTester.testSetConfigurations();
     PortScanAnalyzerTester myPSTester;
     myPSTester.testSetConfigurations();
+    ResultSetTester myResultSetTester;
+    myResultSetTester.testPrint();
+    DenialOfServiceAnalyzerTester myDOSTester;
+    myDOSTester.testSetConfigurations();
+    myDOSTester.testRun();
+    myDOSTester.testDictionaryContains();
     return 0;
 }

@@ -43,3 +43,27 @@ void DenialOfServiceAnalyzerTester::testSetConfigurations() {
     }else{cout<<"^^Second one when working should make error message about bad parameters (if this message is showing then all is well).\n";}
 
 }
+
+
+
+void DenialOfServiceAnalyzerTester::testRun(){
+    ifstream myfile("/Users/arisemery/CLionProjects/ITAK/SampleData.csv");
+    DenialOfServiceAnalyzer myDos;
+    myDos.run(myfile);
+
+}
+
+void DenialOfServiceAnalyzerTester::testDictionaryContains(){
+    Dictionary<string, int> myDictionary;
+    myDictionary.add("asdf",433);
+    myDictionary.add("454",7);
+    myDictionary.add("gert",6);
+    myDictionary.add("45twfe4",1);
+    if(myDictionary.containsKey("asdf")!=true){
+        cout<<"Failure in containsKey method of Dictionary.\n";
+    }
+    if(myDictionary.containsKey("kvjgjghlkjcghjgglkj")==true){
+        cout<<"Failure in containsKey method of Dictionary.\n";
+    }
+
+}

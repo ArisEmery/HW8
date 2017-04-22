@@ -16,5 +16,6 @@ public:
     };
     K getKey(){return m_key;};
     V getValue(){return m_value;};
+    void incrementValue(){m_value++;};
 };
 #endif //ITAK_KEYVALUE_H

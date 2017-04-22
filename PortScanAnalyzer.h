@@ -12,7 +12,7 @@ private:
 public:
     PortScanAnalyzer(){};
     string neededConfigs[2]={"Likely Attack Port Count","Possible Attack Port Count"};
-    void run(ostream input);
+    //void run(ifstream &inputFile);
     void setConfigurations(Configuration configuration);
 
 };

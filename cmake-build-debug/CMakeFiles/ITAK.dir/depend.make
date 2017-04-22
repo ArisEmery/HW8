@@ -27,6 +27,8 @@ CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: ../KeyValue.h
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: ../PortScanAnalyzer.cpp
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: ../PortScanAnalyzer.h
 
+CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../Dictionary.h
+CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../KeyValue.h
 CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../ResultSet.cpp
 CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../ResultSet.h
 

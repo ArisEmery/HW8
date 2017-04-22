@@ -6,8 +6,14 @@
 #define ITAK_RESULTSET_H
 
 
+#include "Dictionary.h"
+#include <vector>
+using namespace std;
 class ResultSet {
+public:
 
+    Dictionary<string, vector<string>> results;\
+    void print(ostream& out);
 };
 
 

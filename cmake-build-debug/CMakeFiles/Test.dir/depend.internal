@@ -14,6 +14,7 @@ CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o
  /Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.h
  /Users/arisemery/CLionProjects/ITAK/Dictionary.h
  /Users/arisemery/CLionProjects/ITAK/KeyValue.h
+ /Users/arisemery/CLionProjects/ITAK/utils.h
 CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o
  /Users/arisemery/CLionProjects/ITAK/Analyzer.h
  /Users/arisemery/CLionProjects/ITAK/Configuration.h
@@ -21,6 +22,11 @@ CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o
  /Users/arisemery/CLionProjects/ITAK/KeyValue.h
  /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.cpp
  /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.h
+CMakeFiles/Test.dir/ResultSet.cpp.o
+ /Users/arisemery/CLionProjects/ITAK/Dictionary.h
+ /Users/arisemery/CLionProjects/ITAK/KeyValue.h
+ /Users/arisemery/CLionProjects/ITAK/ResultSet.cpp
+ /Users/arisemery/CLionProjects/ITAK/ResultSet.h
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o
  /Users/arisemery/CLionProjects/ITAK/Configuration.h
  /Users/arisemery/CLionProjects/ITAK/Dictionary.h
@@ -36,6 +42,7 @@ CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o
  /Users/arisemery/CLionProjects/ITAK/KeyValue.h
  /Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.cpp
  /Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.h
+ /Users/arisemery/CLionProjects/ITAK/utils.h
 CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o
  /Users/arisemery/CLionProjects/ITAK/Analyzer.h
  /Users/arisemery/CLionProjects/ITAK/Configuration.h
@@ -44,6 +51,12 @@ CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o
  /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.h
  /Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.cpp
  /Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.h
+CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o
+ /Users/arisemery/CLionProjects/ITAK/Dictionary.h
+ /Users/arisemery/CLionProjects/ITAK/KeyValue.h
+ /Users/arisemery/CLionProjects/ITAK/ResultSet.h
+ /Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.cpp
+ /Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o
  /Users/arisemery/CLionProjects/ITAK/Analyzer.h
  /Users/arisemery/CLionProjects/ITAK/Configuration.h
@@ -51,10 +64,13 @@ CMakeFiles/Test.dir/Testing/testMain.cpp.o
  /Users/arisemery/CLionProjects/ITAK/Dictionary.h
  /Users/arisemery/CLionProjects/ITAK/KeyValue.h
  /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.h
+ /Users/arisemery/CLionProjects/ITAK/ResultSet.h
  /Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.h
  /Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.h
  /Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.h
+ /Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.h
  /Users/arisemery/CLionProjects/ITAK/Testing/testMain.cpp
+ /Users/arisemery/CLionProjects/ITAK/utils.h
 CMakeFiles/Test.dir/utils.cpp.o
  /Users/arisemery/CLionProjects/ITAK/Utils.h
  /Users/arisemery/CLionProjects/ITAK/utils.cpp

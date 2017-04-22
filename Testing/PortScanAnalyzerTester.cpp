@@ -43,3 +43,5 @@ void PortScanAnalyzerTester::testSetConfigurations() {
     }else{cout<<"^^Second one when working should make error message about bad parameters (if this message is showing then all is well).\n";}
 
 }
+
+

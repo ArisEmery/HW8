@@ -31,6 +31,10 @@ DenialOfServiceAnalyzer.h
 /Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.h
 Analyzer.h
 /Users/arisemery/CLionProjects/ITAK/Analyzer.h
+fstream
+-
+utils.h
+/Users/arisemery/CLionProjects/ITAK/utils.h
 
 /Users/arisemery/CLionProjects/ITAK/Dictionary.h
 KeyValue.h
@@ -47,6 +51,16 @@ PortScanAnalyzer.h
 /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.h
 Analyzer.h
 /Users/arisemery/CLionProjects/ITAK/Analyzer.h
+
+/Users/arisemery/CLionProjects/ITAK/ResultSet.cpp
+ResultSet.h
+/Users/arisemery/CLionProjects/ITAK/ResultSet.h
+
+/Users/arisemery/CLionProjects/ITAK/ResultSet.h
+Dictionary.h
+/Users/arisemery/CLionProjects/ITAK/Dictionary.h
+vector
+-
 
 /Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.cpp
 ConfigurationTester.h
@@ -74,6 +88,14 @@ PortScanAnalyzerTester.h
 ../PortScanAnalyzer.h
 /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.h
 
+/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.cpp
+ResultSetTester.h
+/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.h
+
+/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.h
+../ResultSet.h
+/Users/arisemery/CLionProjects/ITAK/ResultSet.h
+
 /Users/arisemery/CLionProjects/ITAK/Testing/testMain.cpp
 ConfigurationTester.h
 /Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.h
@@ -81,6 +103,8 @@ DenialOfServiceAnalyzerTester.h
 /Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.h
 PortScanAnalyzerTester.h
 /Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.h
+ResultSetTester.h
+/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.h
 
 /Users/arisemery/CLionProjects/ITAK/Utils.h
 string

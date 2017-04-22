@@ -159,9 +159,11 @@
 			<Option target="ITAK"/>
 		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/ITAK/ResultSet.cpp">
+			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/ITAK/ResultSet.h">
+			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.cpp">
@@ -180,6 +182,12 @@
 			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.h">
 			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/testMain.cpp">

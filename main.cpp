@@ -19,15 +19,8 @@ int main() {
     cout<<myKeyValue.getKey()<<endl;
     Configuration myConfiguration;
     myConfiguration.configurationParameters.add("test1key", "test1Value");
-    int test=myConfiguration.getIntValue("test1key");
-
-    bool aayy= true;
-    string inputString="inputFiles/sampleData.csv";
     string line;
-    stringstream s;
-    s<<"sfhdsafhbf";
     ifstream myfile("/Users/arisemery/CLionProjects/ITAK/SampleData.csv");
-    //ostream os(&myfile);
     while (myfile.is_open() && !myfile.eof())
     {
         getline(myfile, line);

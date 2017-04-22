@@ -3,10 +3,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o"
   "CMakeFiles/Test.dir/Configuration.cpp.o"
   "CMakeFiles/Test.dir/utils.cpp.o"
+  "CMakeFiles/Test.dir/ResultSet.cpp.o"
   "CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o"
   "CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o"
   "CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o"
   "CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o"
+  "CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o"
   "Test.pdb"
   "Test"
 )

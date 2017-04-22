@@ -6,13 +6,15 @@
 #define ITAK_DENIALOFSERVICEANALYZER_H
 
 #include "Analyzer.h"
+#include <fstream>
+#include "utils.h"
 using namespace std;
 class DenialOfServiceAnalyzer : public Analyzer { //: public Analyzer
 private:
 public:
     DenialOfServiceAnalyzer(){};
     string neededConfigs[3]={"Timeframe","Likely Attack Message Count","Possible Attack Message Count"};
-    void run(ostream input);
+    void run(std::ifstream &inputFile);
     void setConfigurations(Configuration configuration);
 
 };

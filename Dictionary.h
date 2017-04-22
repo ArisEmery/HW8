@@ -24,15 +24,65 @@ public:
     int getNumKeyValuePairs(){return numKeyValuePairs;};
     int getCount(){return currentKeyValuePairs;};
     void add(K key, V value); //TODO: make dynamic expansion of memory
+    void addToInside(K finderKey, K key, V value);
     void removeByKey(K key);
+    void asdf(){currentKeyValuePairs++;};
     void removeByIndex(int n);
+    void incrementValue(K key);
+    bool containsKey(K key);
+    int returnIndex(K key);
     //bool operator == (V firstValue);
     bool operator == (std::string string2);
     ~Dictionary();
-private:
+
     KeyValue<K, V>** keyValuePairs;
 
 };
+
+
+template <class K, class V>
+int Dictionary<K, V>::returnIndex(K key){
+    for(int i=0;i<getCount();i++){
+        //if(keyValuePairs[i]== nullptr){
+        //return true;
+        //}
+        if(keyValuePairs[i]->getKey()==key){
+            return i;
+        }
+    }
+    return 0;
+}
+
+template <class K, class V>
+void Dictionary<K, V>::addToInside(K finderKey, K key, V value){
+    for(int i=0;i<getCount();i++){
+        if(keyValuePairs[i]->getKey()==finderKey){
+            //keyValuePairs[i]->add(key, value);
+        }
+    }
+}
+
+template <class K, class V>
+void Dictionary<K, V>::incrementValue(K key){
+    for(int i=0;i<getCount();i++){
+        if(keyValuePairs[i]->getKey()==key){
+            keyValuePairs[i]->m_value++;
+        }
+    }
+}
+template <class K, class V>
+bool Dictionary<K, V>::containsKey(K key){
+    //bool found=false;
+    for(int i=0;i<getCount();i++){
+       // if(keyValuePairs[i]== nullptr){
+       //     return false;
+      //  }
+        if(keyValuePairs[i]->getKey()==key){
+            return true;
+        }
+    }
+    return false;
+}
 template <class K, class V>
 bool Dictionary<K, V>::operator == (std::string string2){
     char convertedString1[50];
@@ -116,40 +166,30 @@ V Dictionary<K, V>::getValueByKey(K key){
             return keyValuePairs[i]->m_value;
         }
     }
-    return nullptr;
+    return NULL;
 }
 
 template <class K, class V>
 void Dictionary<K, V>::add(K key, V value) {
     if(currentKeyValuePairs>=numKeyValuePairs){
-        std::string tester=keyValuePairs[1]->getValue();
-        std::cout<<keyValuePairs[1]->getValue();
-        std::string tester2=keyValuePairs[1]->getKey();
-        std::cout<<std::endl<<keyValuePairs[1]->getKey();
         int newSize=numKeyValuePairs*2;
         int oldSize=numKeyValuePairs;
         KeyValue<K, V>** tempKeyValuePairs;
         tempKeyValuePairs = new KeyValue<K, V>*[numKeyValuePairs];
-        for(int i; i<numKeyValuePairs;i++){
+        for(int i=0; i<numKeyValuePairs;i++){
             tempKeyValuePairs[i]=keyValuePairs[i];
         }
-        tester=keyValuePairs[0]->getValue();
-        std::cout<<keyValuePairs[0]->getValue();
-        tester2=keyValuePairs[0]->getKey();
-        std::cout<<std::endl<<keyValuePairs[0]->getKey();
-        KeyValue<K, V> placeHolder=*keyValuePairs[0];
+        //KeyValue<K, V> placeHolder=*keyValuePairs[0];
         keyValuePairs = new KeyValue<K, V>*[newSize];
-        for(int i; i<numKeyValuePairs;i++){
+        for(int i=0; i<numKeyValuePairs;i++){
             keyValuePairs[i]=tempKeyValuePairs[i];
         }
         numKeyValuePairs=newSize;
-        *keyValuePairs[0]=placeHolder;
-        tester=keyValuePairs[0]->getValue();
-        std::cout<<keyValuePairs[0]->getValue();
-        tester2=keyValuePairs[0]->getKey();
-        std::cout<<std::endl<<keyValuePairs[0]->getKey();
-        for (int i=0; i<oldSize; i++)
+        //*keyValuePairs[0]=placeHolder;
+        for (int i=0; i<oldSize; i++) {
+            tempKeyValuePairs[i]=NULL;
             delete tempKeyValuePairs[i];
+        }
         delete[] tempKeyValuePairs;
     }
     KeyValue<K,V>* newKey = new KeyValue<K,V>(key, value);

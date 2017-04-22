@@ -10,6 +10,8 @@ using namespace std;
 class DenialOfServiceAnalyzerTester {
 public:
     void testSetConfigurations();
+    void testRun();
+    void testDictionaryContains();
 };
 
 

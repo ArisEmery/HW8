@@ -35,6 +35,8 @@ DenialOfServiceAnalyzer.h
 /Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.h
 Analyzer.h
 /Users/arisemery/CLionProjects/ITAK/Analyzer.h
+fstream
+-
 
 /Users/arisemery/CLionProjects/ITAK/Dictionary.h
 KeyValue.h
@@ -57,6 +59,10 @@ ResultSet.h
 /Users/arisemery/CLionProjects/ITAK/ResultSet.h
 
 /Users/arisemery/CLionProjects/ITAK/ResultSet.h
+Dictionary.h
+/Users/arisemery/CLionProjects/ITAK/Dictionary.h
+vector
+-
 
 /Users/arisemery/CLionProjects/ITAK/Utils.h
 string

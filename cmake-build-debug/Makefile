@@ -259,6 +259,7 @@ ResultSet.o: ResultSet.cpp.o
 
 # target to build an object file
 ResultSet.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/ResultSet.cpp.o
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/ResultSet.cpp.o
 .PHONY : ResultSet.cpp.o
 
@@ -268,6 +269,7 @@ ResultSet.i: ResultSet.cpp.i
 
 # target to preprocess a source file
 ResultSet.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/ResultSet.cpp.i
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/ResultSet.cpp.i
 .PHONY : ResultSet.cpp.i
 
@@ -277,6 +279,7 @@ ResultSet.s: ResultSet.cpp.s
 
 # target to generate assembly for a file
 ResultSet.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/ResultSet.cpp.s
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/ResultSet.cpp.s
 .PHONY : ResultSet.cpp.s
 
@@ -360,6 +363,33 @@ Testing/PortScanAnalyzerTester.s: Testing/PortScanAnalyzerTester.cpp.s
 Testing/PortScanAnalyzerTester.cpp.s:
 	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.s
 .PHONY : Testing/PortScanAnalyzerTester.cpp.s
+
+Testing/ResultSetTester.o: Testing/ResultSetTester.cpp.o
+
+.PHONY : Testing/ResultSetTester.o
+
+# target to build an object file
+Testing/ResultSetTester.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o
+.PHONY : Testing/ResultSetTester.cpp.o
+
+Testing/ResultSetTester.i: Testing/ResultSetTester.cpp.i
+
+.PHONY : Testing/ResultSetTester.i
+
+# target to preprocess a source file
+Testing/ResultSetTester.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.i
+.PHONY : Testing/ResultSetTester.cpp.i
+
+Testing/ResultSetTester.s: Testing/ResultSetTester.cpp.s
+
+.PHONY : Testing/ResultSetTester.s
+
+# target to generate assembly for a file
+Testing/ResultSetTester.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.s
+.PHONY : Testing/ResultSetTester.cpp.s
 
 Testing/testMain.o: Testing/testMain.cpp.o
 
@@ -479,6 +509,9 @@ help:
 	@echo "... Testing/PortScanAnalyzerTester.o"
 	@echo "... Testing/PortScanAnalyzerTester.i"
 	@echo "... Testing/PortScanAnalyzerTester.s"
+	@echo "... Testing/ResultSetTester.o"
+	@echo "... Testing/ResultSetTester.i"
+	@echo "... Testing/ResultSetTester.s"
 	@echo "... Testing/testMain.o"
 	@echo "... Testing/testMain.i"
 	@echo "... Testing/testMain.s"
