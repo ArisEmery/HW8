@@ -52,7 +52,7 @@ ResultSet DenialOfServiceAnalyzer::run(ifstream &inputFile) {
             //counter++;
             //int whatayaknow = data.currentKeyValuePairs;
             data.keyValuePairs[data.currentKeyValuePairs - 1]->m_value.add(currentTimeStamp, 1);//TODO this may need to be index-1
-            //int tester4=data.getByIndex(data.getCount()-1).m_value.getByIndex(0).m_key;//TODO ask why is that when this is uncommented it crashes? is this seriously my fault?
+            //int tester4=data.getByIndex(data.getCount()-1).m_value.getByIndex(0).m_key;//TODO ask why is that when this is uncommented it crashes?
         }
         else if (data.keyValuePairs[index]->m_value.containsKey(currentTimeStamp) == true) {
             //data.keyValuePairs[index]->m_value.keyValuePairs[0]->m_value;
@@ -74,7 +74,7 @@ iterations++;
 
         //TODO implement the new add method needed.
     }
-
+    ///ATTACK DETECTION PHASE
     int likelyThreshold = myConfiguration.getIntValue("Likely Attack Message Count");//TODO implement the new add method needed.
     int possibleThreshold = myConfiguration.getIntValue("Possible Attack Message Count");
     int timeFrame = myConfiguration.getIntValue("Timeframe");
@@ -90,11 +90,8 @@ iterations++;
     newVecEntry=new vector<string>;
     myDOSresults.results.add("Timeframe",*newVecEntry);
     myDOSresults.results.keyValuePairs[3]->m_value.push_back(timeFrameStr);
-    int wada=data.returnIndex("184.64.34.23");
-    int kwada=data.getByIndex(wada).m_value.getCount();
     //int tester=data.getByIndex(wada).m_value.getByIndex(0).m_key;
-    //kwada=data.keyValuePairs[1]->m_value.keyValuePairs[0]->m_key;//TODO ask how to do this when everything crashes CLion for bizarre reasons.
-    string tester1=data.getByIndex(wada).m_key;
+    //kwada=data.keyValuePairs[1]->m_value.keyValuePairs[0]->m_key;//TODO ask why did this cause crash?
     int totalNumber=0;
     //tester=data.getByIndex(wada).m_value.getByIndex(1).m_key;
     //tester=data.getByIndex(wada).m_value.getByIndex(2).m_key;
@@ -119,7 +116,7 @@ iterations++;
 
 
 
-    ///Attack detection phase
+
 /*
 
 
@@ -131,8 +128,3 @@ iterations++;
 */
 
 }
-/*
-ResultSet DenialOfServiceAnalyzer::createResultSet(Dictionary<string, Dictionary<int, int>>){
-
-}
- */

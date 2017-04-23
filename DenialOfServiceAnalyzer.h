@@ -16,7 +16,6 @@ public:
     string neededConfigs[3]={"Timeframe","Likely Attack Message Count","Possible Attack Message Count"};
     ResultSet run(std::ifstream &inputFile);
     void setConfigurations(Configuration configuration);
-    //ResultSet createResultSet(Dictionary<string, Dictionary<int, int>>);
 };
         //A DenialOfServiceAnalyzer object should only accept Configuration
         //objects that include, as a minimum, parameters with the following name:
