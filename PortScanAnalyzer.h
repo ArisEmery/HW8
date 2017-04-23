@@ -6,13 +6,16 @@
 #define ITAK_PORTSCANANALYER_H
 
 #include "Analyzer.h"
+#include <fstream>
+#include "utils.h"
+#include "vector"
 using namespace std;
 class PortScanAnalyzer : public Analyzer {
 private:
 public:
     PortScanAnalyzer(){};
     string neededConfigs[2]={"Likely Attack Port Count","Possible Attack Port Count"};
-    //void run(ifstream &inputFile);
+    ResultSet run(ifstream &inputFile);
     void setConfigurations(Configuration configuration);
 
 };

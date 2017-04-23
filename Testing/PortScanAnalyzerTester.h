@@ -9,6 +9,7 @@ using namespace std;
 class PortScanAnalyzerTester {
 public:
     void testSetConfigurations();
+    void testRun();
 };
 
 

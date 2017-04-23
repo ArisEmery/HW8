@@ -75,8 +75,8 @@ bool Dictionary<K, V>::containsKey(K key){
     //bool found=false;
     for(int i=0;i<getCount();i++){
        // if(keyValuePairs[i]== nullptr){
-       //     return false;
-      //  }
+         //   return false;
+       //}
         if(keyValuePairs[i]->getKey()==key){
             return true;
         }
@@ -149,7 +149,7 @@ KeyValue<K, V> Dictionary<K, V>::getByKey(K key){
 
 template <class K, class V>
 KeyValue<K, V> Dictionary<K, V>::getByIndex(int key){
-    if(key>currentKeyValuePairs||key<0){
+    if(key>=currentKeyValuePairs||key<0){
         std::cout<<"can't find item, bad index given.\n";
         throw std::invalid_argument( "Item to be found because bad index given\n" );
     }
@@ -166,7 +166,7 @@ V Dictionary<K, V>::getValueByKey(K key){
             return keyValuePairs[i]->m_value;
         }
     }
-    return NULL;
+    //return NULL;
 }
 
 template <class K, class V>
@@ -238,11 +238,15 @@ void Dictionary<K, V>::removeByIndex(int key){
 template <class K, class V>
 Dictionary<K, V>::~Dictionary()
 {
-    for (int i=0; i<numKeyValuePairs; i++)
-        keyValuePairs[i]= nullptr;
-    for (int i=0; i<numKeyValuePairs; i++)
-        delete keyValuePairs[i];
-    //delete[] keyValuePairs; //TODO find why this made it all crash
+
+        for (int i = 0; i < numKeyValuePairs; i++) {
+            keyValuePairs[i] = nullptr;
+        }
+        //}
+        for (int i = 0; i < numKeyValuePairs; i++)
+            delete keyValuePairs[i];
+        //delete[] keyValuePairs; //TODO find why this made it all crash
+
 }
 
 #endif //ITAK_DICTIONARY_H

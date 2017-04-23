@@ -49,8 +49,25 @@ void DenialOfServiceAnalyzerTester::testSetConfigurations() {
 void DenialOfServiceAnalyzerTester::testRun(){
     ifstream myfile("/Users/arisemery/CLionProjects/ITAK/SampleData.csv");
     DenialOfServiceAnalyzer myDos;
+    Configuration myConfiguration;
+    myConfiguration.configurationParameters.add("Likely Attack Message Count", "5");
+    myConfiguration.configurationParameters.add("Possible Attack Message Count", "5");
+    myConfiguration.configurationParameters.add("Timeframe", "5");
+    myDos.setConfigurations(myConfiguration);
     myDos.run(myfile);
+    myfile.close();
+    cout<<"Running denial of service test for first 500 lines of sample Data:\n";
+    cout<<"Number for likely attack: 5\n";
+    cout<<"Number for possible attack: 5\n";
+    cout<<"Timeframe: 5\n";
 
+    /*
+
+
+    myDos.setConfigurations(myConfiguration);
+    string isit=myDos.myConfiguration.configurationParameters.getByIndex(1).m_key;
+    myResultSet.print(cout);
+     */
 }
 
 void DenialOfServiceAnalyzerTester::testDictionaryContains(){

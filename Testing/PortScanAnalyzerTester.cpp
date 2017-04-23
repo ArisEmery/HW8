@@ -45,3 +45,20 @@ void PortScanAnalyzerTester::testSetConfigurations() {
 }
 
 
+void PortScanAnalyzerTester::testRun(){
+    ifstream myfile("/Users/arisemery/CLionProjects/ITAK/SampleData.csv");
+    PortScanAnalyzer myPCA;
+    Configuration myConfiguration;
+    cout<<"Running portscan test for first 500 lines of sample Data:\n";
+    cout<<"Number for likely attack: 12\n";
+    cout<<"Number for possible attack: 8\n";
+    myConfiguration.configurationParameters.add("Likely Attack Port Count", "12");
+    myConfiguration.configurationParameters.add("Possible Attack Port Count", "8");
+    myPCA.setConfigurations(myConfiguration);
+    string isit=myPCA.myConfiguration.configurationParameters.getByIndex(1).m_key;
+    ResultSet myResultSet=myPCA.run(myfile);
+    myfile.close();
+    myResultSet.print(cout);
+}
+
+

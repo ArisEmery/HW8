@@ -26,14 +26,6 @@ int main() {
         getline(myfile, line);
 
     }
-    /*
-    string inputString="inputFiles/sampleData.csv";
-    ifstream myfile;
-    myfile.open (inputString;
-    string wowzers;
-    wowzers << myfile;
-    myfile.close();
-    */
 
     return 0;
 }

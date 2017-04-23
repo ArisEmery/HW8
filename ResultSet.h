@@ -11,7 +11,6 @@
 using namespace std;
 class ResultSet {
 public:
-
     Dictionary<string, vector<string>> results;\
     void print(ostream& out);
 };

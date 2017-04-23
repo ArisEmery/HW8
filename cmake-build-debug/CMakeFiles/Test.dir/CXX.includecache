@@ -11,6 +11,8 @@ iostream
 -
 Configuration.h
 /Users/arisemery/CLionProjects/ITAK/Configuration.h
+ResultSet.h
+/Users/arisemery/CLionProjects/ITAK/ResultSet.h
 
 /Users/arisemery/CLionProjects/ITAK/Configuration.cpp
 Configuration.h
@@ -51,6 +53,12 @@ PortScanAnalyzer.h
 /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.h
 Analyzer.h
 /Users/arisemery/CLionProjects/ITAK/Analyzer.h
+fstream
+-
+utils.h
+/Users/arisemery/CLionProjects/ITAK/utils.h
+vector
+/Users/arisemery/CLionProjects/ITAK/vector
 
 /Users/arisemery/CLionProjects/ITAK/ResultSet.cpp
 ResultSet.h

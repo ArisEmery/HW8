@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "Configuration.h"
+#include "ResultSet.h"
 using namespace std;
 class Analyzer {
 private:
@@ -14,7 +15,7 @@ public:
     Configuration myConfiguration;
     //TODO ask question on why the pure virtual won't work even I override(with=0), also, find what functions have to be virtual for abstract.
     //Analyzer(){};
-    virtual void run(ifstream &inputFile){};
+    virtual ResultSet run(ifstream &inputFile){};
     virtual void setConfigurations(){};
 };
 

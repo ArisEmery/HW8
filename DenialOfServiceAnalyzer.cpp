@@ -3,92 +3,136 @@
 //
 
 #include "DenialOfServiceAnalyzer.h"
-void DenialOfServiceAnalyzer::setConfigurations(Configuration configuration){
-    bool goodConfiguration=false;
-    bool keepTesting=true;
-    int counter=0;
-    KeyValue<string,string> myKeyValue;
+void DenialOfServiceAnalyzer::setConfigurations(Configuration configuration) {
+    bool goodConfiguration = false;
+    bool keepTesting = true;
+    int counter = 0;
+    KeyValue <string, string> myKeyValue;
+    string currKey;
     string currValue;
-    for(int i=0; i<configuration.configurationParameters.getCount()&&counter<4;i++){
-        myKeyValue=configuration.configurationParameters.getByIndex(i);
-        currValue=myKeyValue.getValue();
-        if(currValue==neededConfigs[0]||currValue==neededConfigs[1]||currValue==neededConfigs[2]){
+    for (int i = 0; i < configuration.configurationParameters.getCount() && counter < 4; i++) {
+        myKeyValue = configuration.configurationParameters.getByIndex(i);
+        currKey = configuration.configurationParameters.keyValuePairs[i]->m_key;
+        currValue = configuration.configurationParameters.keyValuePairs[i]->m_value;
+        if (currKey == neededConfigs[0] || currKey == neededConfigs[1]|| currKey == neededConfigs[2]) {
             counter++;
+            myConfiguration.configurationParameters.add(currKey, currValue);
         }
     }
-    if(counter<3){
-        cout<<"Can't make DOS object, bad parameters.\n";
-        throw std::invalid_argument( "Can't make DOS object, bad parameters.\n" );
+
+    if (counter < 2) {
+        cout << "Can't make DOS object, bad parameters.\n";
+        throw std::invalid_argument("Can't make DOS object, bad parameters.\n");
     }
-    myConfiguration=configuration;
 }
 
-void DenialOfServiceAnalyzer::run(ifstream &inputFile){
-    /*
-    Data loading/filing phase: Read each record (line) from the input stream and
-     account for it in an address-to-summary dictionary, where
-    • the key is string and represents source IP address
-    • the value is a timestamp-to-count dictionary, where
-    o the key is the millisecond timestamp of the message o the value is counter
-    */
+ResultSet DenialOfServiceAnalyzer::run(ifstream &inputFile) {
+    ///data summation phase
     Dictionary<string, Dictionary<int, int>> data;
-    //Dictionary<double,int> newEntry;
-    //newEntry.add(0,0);
     Dictionary<int, int> timestampIncrementor;
     string currentIP;
     int currentTimeStamp;
     string line;
     string stringIP;
     string lineFinisher;
-    int counter=0;
-    int iterations=0;
-    char delim='\n';
-    Dictionary<int,int> newEntry;
-    while (inputFile.is_open() && !inputFile.eof())
-    {
+    int counter = 0;
+    int iterations = 0;
+    char delim = '\n';
+    Dictionary<int, int> *newEntry;
+    while (inputFile.is_open() && !inputFile.eof()) {
         getline(inputFile, stringIP, ',');
-        currentTimeStamp=convertStringToInt(stringIP);
+        currentTimeStamp = convertStringToInt(stringIP);
         getline(inputFile, currentIP, ',');
         getline(inputFile, lineFinisher, delim);
-        //newEntry=new Dictionary<int,int>;
-        //newEntry->add(currentTimeStamp,1);
-       // bool fasdfsd=newEntry.containsKey(currentTimeStamp);
-        if(data.containsKey(currentIP)!=true){
-            //newEntry.add(currentTimeStamp,0);
-            data.add(currentIP,newEntry);
-            counter++;
-            data.keyValuePairs[data.currentKeyValuePairs-1]->m_value.add(currentTimeStamp,0);//TODO this may need to be index-1
+        int index = data.returnIndex(currentIP);
+        //string letsee = data.keyValuePairs[index]->m_key;
+        if (data.containsKey(currentIP) != true) {
+            newEntry = new Dictionary<int, int>;
+            data.add(currentIP, *newEntry);
+            //counter++;
+            //int whatayaknow = data.currentKeyValuePairs;
+            data.keyValuePairs[data.currentKeyValuePairs - 1]->m_value.add(currentTimeStamp, 1);//TODO this may need to be index-1
+            //int tester4=data.getByIndex(data.getCount()-1).m_value.getByIndex(0).m_key;//TODO ask why is that when this is uncommented it crashes? is this seriously my fault?
         }
-        int index=data.returnIndex(currentIP);
-        string letsee=data.keyValuePairs[index]->m_key;
-        if(data.keyValuePairs[index]->m_value.containsKey(currentTimeStamp)==true){
-            int index2=data.keyValuePairs[index]->m_value.returnIndex(currentTimeStamp);
-            int see=data.keyValuePairs[index]->m_value.keyValuePairs[index2]->m_value;
-            data.keyValuePairs[index]->m_value.keyValuePairs[index2]->m_value++;
-            see=data.keyValuePairs[index]->m_value.keyValuePairs[index2]->m_value;
-            data.keyValuePairs[index]->m_value.keyValuePairs[index2]->incrementValue();
+        else if (data.keyValuePairs[index]->m_value.containsKey(currentTimeStamp) == true) {
+            //data.keyValuePairs[index]->m_value.keyValuePairs[0]->m_value;
+            int index2=data.getByIndex(index).getValue().returnIndex(currentTimeStamp);
+            //int index2 = data.keyValuePairs[index]->m_value.returnIndex(currentTimeStamp);
+            //data.keyValuePairs[index]->m_value.keyValuePairs[0]->m_value;
+            data.keyValuePairs[index]->m_value.keyValuePairs[index2]->incrementValue();///WHY is this crashing?
+            //data.keyValuePairs[index]->m_value.keyValuePairs[index2]->incrementValue();
         }
-        if(data.keyValuePairs[index]->m_value.containsKey(currentTimeStamp)!=true){
-            data.keyValuePairs[index]->m_value.add(currentTimeStamp,0);
-            //int arwesf=data.getValueByKey(currentIP).keyValuePairs[0]->m_value;
+        else if (data.getByIndex(index).getValue().containsKey(currentTimeStamp) != true) {
+            //data.getByIndex(index).getValue().containsKey(currentTimeStamp)
+            //int what = data.keyValuePairs[index]->m_value.getCount();
+            data.keyValuePairs[index]->m_value.add(currentTimeStamp, 1);
+            //int tester4=data.keyValuePairs[index]->m_value.getByIndex(1).m_key;
+           // what = data.keyValuePairs[index]->m_value.getCount();
+//string asfsd;
         }
+iterations++;
 
-        iterations++;
         //TODO implement the new add method needed.
     }
-    if(data.containsKey("184.64.34.23")==true){
-        cout<<"yeet"<<endl;
+
+    int likelyThreshold = myConfiguration.getIntValue("Likely Attack Message Count");//TODO implement the new add method needed.
+    int possibleThreshold = myConfiguration.getIntValue("Possible Attack Message Count");
+    int timeFrame = myConfiguration.getIntValue("Timeframe");
+    string timeFrameStr=myConfiguration.configurationParameters.getByKey("Timeframe").m_key;
+    ResultSet myDOSresults;
+    vector<string> * newVecEntry;
+    newVecEntry=new vector<string>;
+    myDOSresults.results.add("Likely Attackers",*newVecEntry);
+    newVecEntry=new vector<string>;
+    myDOSresults.results.add("Possible Attackers",*newVecEntry);
+    newVecEntry=new vector<string>;
+    myDOSresults.results.add("Attack Periods",*newVecEntry);
+    newVecEntry=new vector<string>;
+    myDOSresults.results.add("Timeframe",*newVecEntry);
+    myDOSresults.results.keyValuePairs[3]->m_value.push_back(timeFrameStr);
+    int wada=data.returnIndex("184.64.34.23");
+    int kwada=data.getByIndex(wada).m_value.getCount();
+    //int tester=data.getByIndex(wada).m_value.getByIndex(0).m_key;
+    //kwada=data.keyValuePairs[1]->m_value.keyValuePairs[0]->m_key;//TODO ask how to do this when everything crashes CLion for bizarre reasons.
+    string tester1=data.getByIndex(wada).m_key;
+    int totalNumber=0;
+    //tester=data.getByIndex(wada).m_value.getByIndex(1).m_key;
+    //tester=data.getByIndex(wada).m_value.getByIndex(2).m_key;
+    for(int i=0;i<data.getCount();i++){
+        currentIP=data.getByIndex(i).m_key;
+        for(int j=0;j<data.getByIndex(i).m_value.getCount()&&j<timeFrame;j++){
+            totalNumber+=j<data.getByIndex(i).m_value.getByIndex(j).getValue();
+        }
+        if(totalNumber>=likelyThreshold){
+            myDOSresults.results.keyValuePairs[0]->m_value.push_back(currentIP);
+            myDOSresults.results.keyValuePairs[2]->m_value.push_back(timeFrameStr);
+        }
+        else if(totalNumber>=possibleThreshold){
+            myDOSresults.results.keyValuePairs[1]->m_value.push_back(currentIP);
+            myDOSresults.results.keyValuePairs[2]->m_value.push_back(timeFrameStr);
+        }
     }
-    //cout<<data.keyValuePairs[]
-    /*
-    Dictionary<int,int> cool=data.getValueByKey("184.64.34.23");
-    int what=data.getValueByKey("184.64.34.23").getValueByKey(1296004);//but how to you add when there's nothing to get.
-    Dictionary<int,int> fuck=data.getValueByKey("184.64.34.23");
-//    KeyValue<int,int> wowzers=fuck.getValueByKey(1296004);
-    if(data.getValueByKey("184.64.34.23").containsKey(1296004)==true){
-        cout<<"yexdgfhet"<<endl;
-    }
-    cout<<data.getValueByKey("184.64.34.23").getByKey(1296004).m_value<<endl;
-    cout<<counter<<endl;
-     */
+    ////
+
+    ResultSet bsSet;
+    return bsSet;
+
+
+
+    ///Attack detection phase
+/*
+
+
+    int likelyThreshold=myConfiguration.getIntValue("Likely Attack Message Count");//TODO implement the new add method needed.
+    int possibleThreshold=myConfiguration.getIntValue("Possible Attack Message Count");
+    int timeFrame=myConfiguration.getIntValue("Timeframe");
+    ResultSet results;
+
+*/
+
 }
+/*
+ResultSet DenialOfServiceAnalyzer::createResultSet(Dictionary<string, Dictionary<int, int>>){
+
+}
+ */

@@ -10,13 +10,14 @@ int main(){
     myConfigurationTester.testConfParameters();
     myConfigurationTester.testReturnAsInt();
     myConfigurationTester.testReturnAsDouble();
-    PortScanAnalyzerTester myPSTester;
-    myPSTester.testSetConfigurations();
     ResultSetTester myResultSetTester;
     myResultSetTester.testPrint();
     DenialOfServiceAnalyzerTester myDOSTester;
     myDOSTester.testSetConfigurations();
-    myDOSTester.testRun();
+    //myDOSTester.testRun();
     myDOSTester.testDictionaryContains();
+    PortScanAnalyzerTester myPSTester;
+    myPSTester.testSetConfigurations();
+    myPSTester.testRun();
     return 0;
 }
