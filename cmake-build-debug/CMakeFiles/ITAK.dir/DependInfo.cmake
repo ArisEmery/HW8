@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o"
   "/Users/arisemery/CLionProjects/HW8/ResultSet.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/ResultSet.cpp.o"
   "/Users/arisemery/CLionProjects/HW8/main.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/main.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/newAnalyzer.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/newAnalyzer.cpp.o"
   "/Users/arisemery/CLionProjects/HW8/utils.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

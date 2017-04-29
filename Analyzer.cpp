@@ -3,6 +3,12 @@
 //
 
 #include "Analyzer.h"
+
+ResultSet Analyzer::run(ifstream &inputFile){
+    dataSummation(inputFile);
+    return attackDetection();
+}
+
 void Analyzer::setConfigurations(Configuration configuration){
     string currKey;
     int counter=0;

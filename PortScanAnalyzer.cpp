@@ -4,51 +4,56 @@
 
 #include "PortScanAnalyzer.h"
 //TODO just copy and past the set configs function from DOS
-
-
+/*
 ResultSet PortScanAnalyzer::run(ifstream &inputFile){
-    Dictionary<string, vector<int>> data;
+    dataSummation(inputFile);
+    return attackDetection();
+}
+*/
+void PortScanAnalyzer::dataSummation(ifstream &inputFile) {
+    //Dictionary<string, vector<int>> data;
     string currentIP;
     string port;
     string lineGarbage;
-    int counter=0;
-    int iterations=0;
+    int counter = 0;
+    int iterations = 0;
     int intPort;
     int index;
-    char delim='\n';
+    char delim = '\n';
     vector<int> *newEntry;
-    while (inputFile.is_open() && !inputFile.eof()&&counter<500)
-    {
+    while (inputFile.is_open() && !inputFile.eof() && counter < 500) {
         ///Data summation phase
         getline(inputFile, lineGarbage, ',');
         getline(inputFile, currentIP, ',');
         getline(inputFile, port, ',');
         getline(inputFile, lineGarbage, delim);
-        intPort=convertStringToInt(port);
-        if(data.containsKey(currentIP)!=true){
-            newEntry= new vector<int>;
-            data.add(currentIP,*newEntry);
-            int what=data.getCount();
+        intPort = convertStringToInt(port);
+        if (data.containsKey(currentIP) != true) {
+            newEntry = new vector<int>;
+            data.add(currentIP, *newEntry);
+            int what = data.getCount();
         }
-        bool found=false;
-        for (int i=0;i<data.getValueByKey(currentIP).size()&&found==false;i++){
-            if(data.getValueByKey(currentIP)[i]==intPort){
-                found=true;
+        bool found = false;
+        for (int i = 0; i < data.getValueByKey(currentIP).size() && found == false; i++) {
+            if (data.getValueByKey(currentIP)[i] == intPort) {
+                found = true;
             }
         }
-        if(!found){
-            index=data.returnIndex(currentIP);
+        if (!found) {
+            index = data.returnIndex(currentIP);
             data.keyValuePairs[index]->m_value.push_back(intPort);
             //data.getValueByKey(currentIP).push_back(intPort);
         }
 
 
-
-
         counter++;
     }
+
+}
+ResultSet PortScanAnalyzer::attackDetection(){
     ///Attack detection phase
-    int likelyThreshold=myConfiguration.getIntValue("Likely Attack Port Count");//TODO implement the new add method needed.
+    string currentIP;//TODO check if this works
+    int likelyThreshold=myConfiguration.getIntValue("Likely Attack Port Count");
     int possibleThreshold=myConfiguration.getIntValue("Possible Attack Port Count");
     vector<string> *newEntry1;
     newEntry1= new vector<string>;
@@ -78,4 +83,5 @@ ResultSet PortScanAnalyzer::run(ifstream &inputFile){
     cout<<data.getByKey("119.43.23.54").m_value.size()<<endl;
     */
     return POSresults;
+
 }

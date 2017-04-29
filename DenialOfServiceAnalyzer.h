@@ -18,7 +18,10 @@ public:
         neededConfigs.push_back("Possible Attack Message Count");
         numConfigParams=neededConfigs.size();
     };
-    ResultSet run(std::ifstream &inputFile);
+    //ResultSet run(std::ifstream &inputFile);
+    Dictionary<string, Dictionary<int, int>> data;
+    void dataSummation(ifstream &inputFile);
+    ResultSet attackDetection();
 };
        /*
         * class PortScanAnalyzer : public Analyzer {

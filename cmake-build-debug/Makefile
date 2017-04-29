@@ -448,6 +448,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+newAnalyzer.o: newAnalyzer.cpp.o
+
+.PHONY : newAnalyzer.o
+
+# target to build an object file
+newAnalyzer.cpp.o:
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/newAnalyzer.cpp.o
+.PHONY : newAnalyzer.cpp.o
+
+newAnalyzer.i: newAnalyzer.cpp.i
+
+.PHONY : newAnalyzer.i
+
+# target to preprocess a source file
+newAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/newAnalyzer.cpp.i
+.PHONY : newAnalyzer.cpp.i
+
+newAnalyzer.s: newAnalyzer.cpp.s
+
+.PHONY : newAnalyzer.s
+
+# target to generate assembly for a file
+newAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/newAnalyzer.cpp.s
+.PHONY : newAnalyzer.cpp.s
+
 utils.o: utils.cpp.o
 
 .PHONY : utils.o
@@ -521,6 +548,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... newAnalyzer.o"
+	@echo "... newAnalyzer.i"
+	@echo "... newAnalyzer.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"

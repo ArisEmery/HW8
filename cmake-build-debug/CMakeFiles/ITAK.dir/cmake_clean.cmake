@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ITAK.dir/Configuration.cpp.o"
   "CMakeFiles/ITAK.dir/ResultSet.cpp.o"
   "CMakeFiles/ITAK.dir/utils.cpp.o"
+  "CMakeFiles/ITAK.dir/newAnalyzer.cpp.o"
   "ITAK.pdb"
   "ITAK"
 )

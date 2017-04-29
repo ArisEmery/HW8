@@ -11,7 +11,7 @@ set(SOURCE_FILES main.cpp
         ResultSet.cpp ResultSet.h
         KeyValue.h
         Dictionary.h
-        utils.h utils.cpp )
+        utils.h utils.cpp newAnalyzer.cpp newAnalyzer.h)
 add_executable(ITAK ${SOURCE_FILES})
 
 set(TEST_FILES Testing/testMain.cpp
