@@ -23,17 +23,6 @@ public:
     void dataSummation(ifstream &inputFile);
     ResultSet attackDetection();
 };
-       /*
-        * class PortScanAnalyzer : public Analyzer {
-private:
-public:
-    PortScanAnalyzer(){
-        neededConfigs.push_back("Likely Attack Port Count");
-        neededConfigs.push_back("Possible Attack Port Count");
-        numConfigParams=neededConfigs.size();
-    };
-    ResultSet run(ifstream &inputFile);
-};
-        */
+
 
 #endif //ITAK_DENIALOFSERVICEANALYZER_H

@@ -9,6 +9,7 @@
 #include <iomanip>
 #include "ResultSet.h"
 #include "PortScanAnalyzer.h"
+#include "newAnalyzer.h"
 using namespace std;
 int main() {
     cout<<"This main is going to let you use the PortScanAnalyzer\n";
@@ -34,5 +35,4 @@ int main() {
     cout<<"\n\nNote: the number of lines read from sample data can be changed with the third condition\n"
             "of the while loop in PortScanAnalyzer::run(ifstream &inputFile), but without being optimized\n"
             "it takes some time to process the whole file\n";
-    return 0;
 }

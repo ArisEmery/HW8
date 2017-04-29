@@ -103,6 +103,22 @@ ResultSet.h
 /Users/arisemery/CLionProjects/HW8/ResultSet.h
 PortScanAnalyzer.h
 /Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.h
+newAnalyzer.h
+/Users/arisemery/CLionProjects/HW8/newAnalyzer.h
+
+/Users/arisemery/CLionProjects/HW8/newAnalyzer.cpp
+newAnalyzer.h
+/Users/arisemery/CLionProjects/HW8/newAnalyzer.h
+
+/Users/arisemery/CLionProjects/HW8/newAnalyzer.h
+Analyzer.h
+/Users/arisemery/CLionProjects/HW8/Analyzer.h
+fstream
+-
+utils.h
+/Users/arisemery/CLionProjects/HW8/utils.h
+vector
+/Users/arisemery/CLionProjects/HW8/vector
 
 /Users/arisemery/CLionProjects/HW8/utils.cpp
 algorithm

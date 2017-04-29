@@ -394,6 +394,33 @@ Testing/ResultSetTester.cpp.s:
 	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.s
 .PHONY : Testing/ResultSetTester.cpp.s
 
+Testing/newAnalyzerTester.o: Testing/newAnalyzerTester.cpp.o
+
+.PHONY : Testing/newAnalyzerTester.o
+
+# target to build an object file
+Testing/newAnalyzerTester.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o
+.PHONY : Testing/newAnalyzerTester.cpp.o
+
+Testing/newAnalyzerTester.i: Testing/newAnalyzerTester.cpp.i
+
+.PHONY : Testing/newAnalyzerTester.i
+
+# target to preprocess a source file
+Testing/newAnalyzerTester.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.i
+.PHONY : Testing/newAnalyzerTester.cpp.i
+
+Testing/newAnalyzerTester.s: Testing/newAnalyzerTester.cpp.s
+
+.PHONY : Testing/newAnalyzerTester.s
+
+# target to generate assembly for a file
+Testing/newAnalyzerTester.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.s
+.PHONY : Testing/newAnalyzerTester.cpp.s
+
 Testing/testMain.o: Testing/testMain.cpp.o
 
 .PHONY : Testing/testMain.o
@@ -454,6 +481,7 @@ newAnalyzer.o: newAnalyzer.cpp.o
 
 # target to build an object file
 newAnalyzer.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/newAnalyzer.cpp.o
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/newAnalyzer.cpp.o
 .PHONY : newAnalyzer.cpp.o
 
@@ -463,6 +491,7 @@ newAnalyzer.i: newAnalyzer.cpp.i
 
 # target to preprocess a source file
 newAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/newAnalyzer.cpp.i
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/newAnalyzer.cpp.i
 .PHONY : newAnalyzer.cpp.i
 
@@ -472,6 +501,7 @@ newAnalyzer.s: newAnalyzer.cpp.s
 
 # target to generate assembly for a file
 newAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/newAnalyzer.cpp.s
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/newAnalyzer.cpp.s
 .PHONY : newAnalyzer.cpp.s
 
@@ -542,6 +572,9 @@ help:
 	@echo "... Testing/ResultSetTester.o"
 	@echo "... Testing/ResultSetTester.i"
 	@echo "... Testing/ResultSetTester.s"
+	@echo "... Testing/newAnalyzerTester.o"
+	@echo "... Testing/newAnalyzerTester.i"
+	@echo "... Testing/newAnalyzerTester.s"
 	@echo "... Testing/testMain.o"
 	@echo "... Testing/testMain.i"
 	@echo "... Testing/testMain.s"

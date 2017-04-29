@@ -70,6 +70,16 @@ CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o: ../ResultSet.h
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o: ../Testing/ResultSetTester.cpp
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o: ../Testing/ResultSetTester.h
 
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../Analyzer.h
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../Configuration.h
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../Dictionary.h
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../KeyValue.h
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../ResultSet.h
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../Testing/newAnalyzerTester.cpp
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../Testing/newAnalyzerTester.h
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../newAnalyzer.h
+CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o: ../utils.h
+
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Analyzer.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Configuration.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../DenialOfServiceAnalyzer.h
@@ -81,8 +91,19 @@ CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/ConfigurationTester.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/DenialOfServiceAnalyzerTester.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/PortScanAnalyzerTester.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/ResultSetTester.h
+CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/newAnalyzerTester.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/testMain.cpp
+CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../newAnalyzer.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../utils.h
+
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../Analyzer.h
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../Configuration.h
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../Dictionary.h
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../KeyValue.h
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../ResultSet.h
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../newAnalyzer.cpp
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../newAnalyzer.h
+CMakeFiles/Test.dir/newAnalyzer.cpp.o: ../utils.h
 
 CMakeFiles/Test.dir/utils.cpp.o: ../Utils.h
 CMakeFiles/Test.dir/utils.cpp.o: ../utils.cpp

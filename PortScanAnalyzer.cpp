@@ -3,15 +3,7 @@
 //
 
 #include "PortScanAnalyzer.h"
-//TODO just copy and past the set configs function from DOS
-/*
-ResultSet PortScanAnalyzer::run(ifstream &inputFile){
-    dataSummation(inputFile);
-    return attackDetection();
-}
-*/
 void PortScanAnalyzer::dataSummation(ifstream &inputFile) {
-    //Dictionary<string, vector<int>> data;
     string currentIP;
     string port;
     string lineGarbage;
@@ -22,7 +14,6 @@ void PortScanAnalyzer::dataSummation(ifstream &inputFile) {
     char delim = '\n';
     vector<int> *newEntry;
     while (inputFile.is_open() && !inputFile.eof() && counter < 500) {
-        ///Data summation phase
         getline(inputFile, lineGarbage, ',');
         getline(inputFile, currentIP, ',');
         getline(inputFile, port, ',');
@@ -42,7 +33,6 @@ void PortScanAnalyzer::dataSummation(ifstream &inputFile) {
         if (!found) {
             index = data.returnIndex(currentIP);
             data.keyValuePairs[index]->m_value.push_back(intPort);
-            //data.getValueByKey(currentIP).push_back(intPort);
         }
 
 
@@ -52,7 +42,7 @@ void PortScanAnalyzer::dataSummation(ifstream &inputFile) {
 }
 ResultSet PortScanAnalyzer::attackDetection(){
     ///Attack detection phase
-    string currentIP;//TODO check if this works
+    string currentIP;
     int likelyThreshold=myConfiguration.getIntValue("Likely Attack Port Count");
     int possibleThreshold=myConfiguration.getIntValue("Possible Attack Port Count");
     vector<string> *newEntry1;
@@ -64,8 +54,6 @@ ResultSet PortScanAnalyzer::attackDetection(){
     for (int i=0;i<data.getCount();i++){
         //*newEntry=data.getByIndex(i).m_value;
         currentIP=data.getByIndex(i).m_key;
-        string tester=POSresults.results.keyValuePairs[0]->m_key;
-        tester=POSresults.results.keyValuePairs[1]->m_key;
         int saf=data.getByIndex(i).m_value.size();
         if(data.getByIndex(i).m_value.size()>=likelyThreshold){
             POSresults.results.keyValuePairs[0]->m_value.push_back(currentIP);
@@ -74,14 +62,6 @@ ResultSet PortScanAnalyzer::attackDetection(){
             POSresults.results.keyValuePairs[1]->m_value.push_back(currentIP);
         }
     }
-    /*
-    cout<<"184.64.34.23"<<endl;
-    cout<<data.getByKey("184.64.34.23").m_value.size()<<endl;
-    cout<<"182.3.53.230"<<endl;
-    cout<<data.getByKey("182.3.53.230").m_value.size()<<endl;
-    cout<<"119.43.23.54"<<endl;
-    cout<<data.getByKey("119.43.23.54").m_value.size()<<endl;
-    */
     return POSresults;
 
 }

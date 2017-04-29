@@ -3,19 +3,7 @@
 //
 
 #include "DenialOfServiceAnalyzer.h"
-/*
 void DenialOfServiceAnalyzer::dataSummation(ifstream &inputFile){
-    int i=0;
-    cout<<"boobz";
-}
-ResultSet DenialOfServiceAnalyzer::attackDetection(){
-    int i=0;
-    ResultSet POSresults;
-    return POSresults;
-}
- */
-void DenialOfServiceAnalyzer::dataSummation(ifstream &inputFile){
-    ///data summation phase
     Dictionary<int, int> timestampIncrementor;
     string currentIP;
     int currentTimeStamp;
@@ -36,7 +24,7 @@ void DenialOfServiceAnalyzer::dataSummation(ifstream &inputFile){
         if (data.containsKey(currentIP) != true) {
             newEntry = new Dictionary<int, int>;
             data.add(currentIP, *newEntry);
-            data.keyValuePairs[data.currentKeyValuePairs - 1]->m_value.add(currentTimeStamp, 1);//TODO this may need to be index-1
+            data.keyValuePairs[data.currentKeyValuePairs - 1]->m_value.add(currentTimeStamp, 1);
         }
         else if (data.keyValuePairs[index]->m_value.containsKey(currentTimeStamp) == true) {
             int index2=data.getByIndex(index).getValue().returnIndex(currentTimeStamp);
@@ -46,8 +34,6 @@ void DenialOfServiceAnalyzer::dataSummation(ifstream &inputFile){
             data.keyValuePairs[index]->m_value.add(currentTimeStamp, 1);
         }
         iterations++;
-
-        //TODO implement the new add method needed.
     }
 }
 ResultSet DenialOfServiceAnalyzer::attackDetection(){
@@ -55,7 +41,7 @@ ResultSet DenialOfServiceAnalyzer::attackDetection(){
     int possibleThreshold = myConfiguration.getIntValue("Possible Attack Message Count");
     int timeFrame = myConfiguration.getIntValue("Timeframe");
     string timeFrameStr=myConfiguration.configurationParameters.getByKey("Timeframe").m_key;
-    string currentIP;//TODO check if theis breaks it
+    string currentIP;
     ResultSet myDOSresults;
     vector<string> * newVecEntry;
     newVecEntry=new vector<string>;
@@ -82,30 +68,7 @@ ResultSet DenialOfServiceAnalyzer::attackDetection(){
             myDOSresults.results.keyValuePairs[2]->m_value.push_back(timeFrameStr);
         }
     }
-    ////
-
     ResultSet bsSet;
     return bsSet;
 }
-
-
-//ResultSet DenialOfServiceAnalyzer::run(ifstream &inputFile) {
-
-    ///ATTACK DETECTION PHASE
-
-
-
-
-
-/*
-
-
-    int likelyThreshold=myConfiguration.getIntValue("Likely Attack Message Count");//TODO implement the new add method needed.
-    int possibleThreshold=myConfiguration.getIntValue("Possible Attack Message Count");
-    int timeFrame=myConfiguration.getIntValue("Timeframe");
-    ResultSet results;
-*/
-
-
-//}
 

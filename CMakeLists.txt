@@ -11,7 +11,8 @@ set(SOURCE_FILES main.cpp
         ResultSet.cpp ResultSet.h
         KeyValue.h
         Dictionary.h
-        utils.h utils.cpp newAnalyzer.cpp newAnalyzer.h)
+        utils.h utils.cpp
+        newAnalyzer.cpp newAnalyzer.h)
 add_executable(ITAK ${SOURCE_FILES})
 
 set(TEST_FILES Testing/testMain.cpp
@@ -22,8 +23,10 @@ set(TEST_FILES Testing/testMain.cpp
         ResultSet.cpp ResultSet.h
         DenialOfServiceAnalyzer.cpp DenialOfServiceAnalyzer.h
         PortScanAnalyzer.cpp PortScanAnalyzer.h
+        newAnalyzer.cpp newAnalyzer.h
         Testing/DenialOfServiceAnalyzerTester.cpp Testing/DenialOfServiceAnalyzerTester.h
         Testing/PortScanAnalyzerTester.cpp Testing/PortScanAnalyzerTester.h
-        Testing/ResultSetTester.cpp Testing/ResultSetTester.h)
+        Testing/ResultSetTester.cpp Testing/ResultSetTester.h
+        Testing/newAnalyzerTester.cpp Testing/newAnalyzerTester.h)
 
 add_executable(Test  ${TEST_FILES} )

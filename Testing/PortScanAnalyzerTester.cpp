@@ -55,7 +55,7 @@ void PortScanAnalyzerTester::testRun(){
     myConfiguration.configurationParameters.add("Likely Attack Port Count", "12");
     myConfiguration.configurationParameters.add("Possible Attack Port Count", "8");
     myPCA.setConfigurations(myConfiguration);
-    string isit=myPCA.myConfiguration.configurationParameters.getByIndex(1).m_key;
+    //string isit=myPCA.myConfiguration.configurationParameters.getByIndex(1).m_key;
     ResultSet myResultSet=myPCA.run(myfile);
     myfile.close();
     myResultSet.print(cout);

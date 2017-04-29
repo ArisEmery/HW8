@@ -13,7 +13,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/arisemery/CLionProjects/HW8/Testing/DenialOfServiceAnalyzerTester.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o"
   "/Users/arisemery/CLionProjects/HW8/Testing/PortScanAnalyzerTester.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o"
   "/Users/arisemery/CLionProjects/HW8/Testing/ResultSetTester.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/Testing/newAnalyzerTester.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/Testing/newAnalyzerTester.cpp.o"
   "/Users/arisemery/CLionProjects/HW8/Testing/testMain.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/Testing/testMain.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/newAnalyzer.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/newAnalyzer.cpp.o"
   "/Users/arisemery/CLionProjects/HW8/utils.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -5,6 +5,7 @@
 #include "DenialOfServiceAnalyzerTester.h"
 #include "PortScanAnalyzerTester.h"
 #include "ResultSetTester.h"
+#include "newAnalyzerTester.h"
 int main(){
     ConfigurationTester myConfigurationTester;
     myConfigurationTester.testConfParameters();
@@ -19,5 +20,8 @@ int main(){
     PortScanAnalyzerTester myPSTester;
     myPSTester.testSetConfigurations();
     myPSTester.testRun();
+    cout<<"hooyah"<<endl;
+    newAnalyzerTester myNATTester;
+    myNATTester.checkResults();
     return 0;
 }

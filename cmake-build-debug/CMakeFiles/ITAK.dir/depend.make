@@ -44,7 +44,17 @@ CMakeFiles/ITAK.dir/main.cpp.o: ../KeyValue.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../PortScanAnalyzer.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../ResultSet.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../main.cpp
+CMakeFiles/ITAK.dir/main.cpp.o: ../newAnalyzer.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../utils.h
+
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../Analyzer.h
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../Configuration.h
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../Dictionary.h
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../KeyValue.h
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../ResultSet.h
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../newAnalyzer.cpp
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../newAnalyzer.h
+CMakeFiles/ITAK.dir/newAnalyzer.cpp.o: ../utils.h
 
 CMakeFiles/ITAK.dir/utils.cpp.o: ../Utils.h
 CMakeFiles/ITAK.dir/utils.cpp.o: ../utils.cpp

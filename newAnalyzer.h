@@ -12,17 +12,15 @@
 class newAnalyzer : public Analyzer {
 private:
 public:
-    /*
     Dictionary<string, vector<int>> data;
-    PortScanAnalyzer(){
-        neededConfigs.push_back("Likely Attack Port Count");
-        neededConfigs.push_back("Possible Attack Port Count");
+    newAnalyzer(){
+        neededConfigs.push_back("IP address");
         numConfigParams=neededConfigs.size();
     };
     //ResultSet run(ifstream &inputFile);
     void dataSummation(ifstream &inputFile);
     ResultSet attackDetection();
-     */
+
 };
 
 
