@@ -123,9 +123,11 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/arisemery/CLionProjects/HW8/Analyzer.cpp">
+			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/HW8/Analyzer.h">
+			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/HW8/Configuration.cpp">

@@ -13,11 +13,12 @@ using namespace std;
 class PortScanAnalyzer : public Analyzer {
 private:
 public:
-    PortScanAnalyzer(){};
-    string neededConfigs[2]={"Likely Attack Port Count","Possible Attack Port Count"};
+    PortScanAnalyzer(){
+        neededConfigs.push_back("Likely Attack Port Count");
+        neededConfigs.push_back("Possible Attack Port Count");
+        numConfigParams=neededConfigs.size();
+    };
     ResultSet run(ifstream &inputFile);
-    void setConfigurations(Configuration configuration);
-
 };
 
 

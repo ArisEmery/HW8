@@ -3,29 +3,6 @@
 //
 
 #include "DenialOfServiceAnalyzer.h"
-void DenialOfServiceAnalyzer::setConfigurations(Configuration configuration) {
-    bool goodConfiguration = false;
-    bool keepTesting = true;
-    int counter = 0;
-    KeyValue <string, string> myKeyValue;
-    string currKey;
-    string currValue;
-    for (int i = 0; i < configuration.configurationParameters.getCount() && counter < 4; i++) {
-        myKeyValue = configuration.configurationParameters.getByIndex(i);
-        currKey = configuration.configurationParameters.keyValuePairs[i]->m_key;
-        currValue = configuration.configurationParameters.keyValuePairs[i]->m_value;
-        if (currKey == neededConfigs[0] || currKey == neededConfigs[1]|| currKey == neededConfigs[2]) {
-            counter++;
-            myConfiguration.configurationParameters.add(currKey, currValue);
-        }
-    }
-
-    if (counter < 2) {
-        cout << "Can't make DOS object, bad parameters.\n";
-        throw std::invalid_argument("Can't make DOS object, bad parameters.\n");
-    }
-}
-
 ResultSet DenialOfServiceAnalyzer::run(ifstream &inputFile) {
     ///data summation phase
     Dictionary<string, Dictionary<int, int>> data;

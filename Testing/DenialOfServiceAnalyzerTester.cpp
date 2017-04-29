@@ -3,6 +3,8 @@
 //
 
 #include "DenialOfServiceAnalyzerTester.h"
+//#include "../Analyzer.h"
+
 
 void DenialOfServiceAnalyzerTester::testSetConfigurations() {
     DenialOfServiceAnalyzer myDos;

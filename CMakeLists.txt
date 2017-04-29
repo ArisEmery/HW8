@@ -15,6 +15,7 @@ set(SOURCE_FILES main.cpp
 add_executable(ITAK ${SOURCE_FILES})
 
 set(TEST_FILES Testing/testMain.cpp
+        Analyzer.cpp Analyzer.h
         Testing/ConfigurationTester.cpp Testing/ConfigurationTester.h
         Configuration.cpp Configuration.h
         utils.h utils.cpp

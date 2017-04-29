@@ -11,7 +11,7 @@ string Configuration::getStringValue(string name){
 }
 int Configuration::getIntValue(string name){
     KeyValue<string, string> myKeyValue;
-    string whata=configurationParameters.getByIndex(0).m_value;
+    //string whata=configurationParameters.getByIndex(0).m_value;
     myKeyValue=configurationParameters.getByKey(name);
     string returnString=myKeyValue.getValue();
     int returnValue=convertStringToInt(returnString);

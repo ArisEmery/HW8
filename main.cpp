@@ -14,10 +14,10 @@ int main() {
     cout<<"This main is going to let you use the PortScanAnalyzer\n";
     cout<<"Pick two numbers, one for the count of ports in a likely attack, and "
             "one for a possible attack";
-    string likelyOption;
-    string possibleOption;
-    cin>>likelyOption;
-    cin>>possibleOption;
+    string likelyOption="12";
+    string possibleOption="8";
+    //cin>>likelyOption;
+    //cin>>possibleOption;
 
 
     ifstream myfile("/Users/arisemery/CLionProjects/ITAK/SampleData.csv");
@@ -27,7 +27,7 @@ int main() {
     myConfiguration.configurationParameters.add("Likely Attack Port Count", likelyOption);
     myConfiguration.configurationParameters.add("Possible Attack Port Count", possibleOption);
     myPCA.setConfigurations(myConfiguration);
-    string isit=myPCA.myConfiguration.configurationParameters.getByIndex(1).m_key;
+    //string isit=myPCA.myConfiguration.configurationParameters.getByIndex(1).m_key;
     ResultSet myResultSet=myPCA.run(myfile);
     myfile.close();
     myResultSet.print(cout);

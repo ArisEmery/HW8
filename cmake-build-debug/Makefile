@@ -142,6 +142,7 @@ Analyzer.o: Analyzer.cpp.o
 
 # target to build an object file
 Analyzer.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Analyzer.cpp.o
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/Analyzer.cpp.o
 .PHONY : Analyzer.cpp.o
 
@@ -151,6 +152,7 @@ Analyzer.i: Analyzer.cpp.i
 
 # target to preprocess a source file
 Analyzer.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Analyzer.cpp.i
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/Analyzer.cpp.i
 .PHONY : Analyzer.cpp.i
 
@@ -160,6 +162,7 @@ Analyzer.s: Analyzer.cpp.s
 
 # target to generate assembly for a file
 Analyzer.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Analyzer.cpp.s
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/Analyzer.cpp.s
 .PHONY : Analyzer.cpp.s
 

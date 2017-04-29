@@ -6,6 +6,7 @@
 #define ITAK_DENIALOFSERVICEANALYZERTESTER_H
 
 #include "../DenialOfServiceAnalyzer.h"
+//#include "../Analyzer.h"
 using namespace std;
 class DenialOfServiceAnalyzerTester {
 public:

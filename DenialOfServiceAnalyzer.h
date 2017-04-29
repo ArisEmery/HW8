@@ -12,13 +12,25 @@ using namespace std;
 class DenialOfServiceAnalyzer : public Analyzer { //: public Analyzer
 private:
 public:
-    DenialOfServiceAnalyzer(){};
-    string neededConfigs[3]={"Timeframe","Likely Attack Message Count","Possible Attack Message Count"};
+    DenialOfServiceAnalyzer(){
+        neededConfigs.push_back("Timeframe");
+        neededConfigs.push_back("Likely Attack Message Count");
+        neededConfigs.push_back("Possible Attack Message Count");
+        numConfigParams=neededConfigs.size();
+    };
     ResultSet run(std::ifstream &inputFile);
-    void setConfigurations(Configuration configuration);
 };
-        //A DenialOfServiceAnalyzer object should only accept Configuration
-        //objects that include, as a minimum, parameters with the following name:
-        //“Timeframe”, “Likely Attack Message Count”, “Possible Attack Message Count”
+       /*
+        * class PortScanAnalyzer : public Analyzer {
+private:
+public:
+    PortScanAnalyzer(){
+        neededConfigs.push_back("Likely Attack Port Count");
+        neededConfigs.push_back("Possible Attack Port Count");
+        numConfigParams=neededConfigs.size();
+    };
+    ResultSet run(ifstream &inputFile);
+};
+        */
 
 #endif //ITAK_DENIALOFSERVICEANALYZER_H
