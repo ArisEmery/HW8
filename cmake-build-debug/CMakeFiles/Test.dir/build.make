@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/arisemery/CLionProjects/ITAK
+CMAKE_SOURCE_DIR = /Users/arisemery/CLionProjects/HW8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/arisemery/CLionProjects/ITAK/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/arisemery/CLionProjects/HW8/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Test.dir/flags.make
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/testMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Testing/testMain.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/testMain.cpp.o -c /Users/arisemery/CLionProjects/ITAK/Testing/testMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Testing/testMain.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/testMain.cpp.o -c /Users/arisemery/CLionProjects/HW8/Testing/testMain.cpp
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/testMain.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/Testing/testMain.cpp > CMakeFiles/Test.dir/Testing/testMain.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/Testing/testMain.cpp > CMakeFiles/Test.dir/Testing/testMain.cpp.i
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/testMain.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/Testing/testMain.cpp -o CMakeFiles/Test.dir/Testing/testMain.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/Testing/testMain.cpp -o CMakeFiles/Test.dir/Testing/testMain.cpp.s
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Test.dir/Testing/testMain.cpp.o.provides.build: CMakeFiles/Test.dir/T
 
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o: ../Testing/ConfigurationTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o -c /Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o -c /Users/arisemery/CLionProjects/HW8/Testing/ConfigurationTester.cpp
 
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.cpp > CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/Testing/ConfigurationTester.cpp > CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.cpp -o CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/Testing/ConfigurationTester.cpp -o CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Test.dir/Testing/ConfigurationTester.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/Test.dir/Configuration.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Configuration.cpp.o: ../Configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Configuration.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Configuration.cpp.o -c /Users/arisemery/CLionProjects/ITAK/Configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Configuration.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Configuration.cpp.o -c /Users/arisemery/CLionProjects/HW8/Configuration.cpp
 
 CMakeFiles/Test.dir/Configuration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Configuration.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/Configuration.cpp > CMakeFiles/Test.dir/Configuration.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/Configuration.cpp > CMakeFiles/Test.dir/Configuration.cpp.i
 
 CMakeFiles/Test.dir/Configuration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Configuration.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/Configuration.cpp -o CMakeFiles/Test.dir/Configuration.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/Configuration.cpp -o CMakeFiles/Test.dir/Configuration.cpp.s
 
 CMakeFiles/Test.dir/Configuration.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Test.dir/Configuration.cpp.o.provides.build: CMakeFiles/Test.dir/Conf
 
 CMakeFiles/Test.dir/utils.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/utils.cpp.o: ../utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/utils.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/utils.cpp.o -c /Users/arisemery/CLionProjects/ITAK/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/utils.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/utils.cpp.o -c /Users/arisemery/CLionProjects/HW8/utils.cpp
 
 CMakeFiles/Test.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/utils.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/utils.cpp > CMakeFiles/Test.dir/utils.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/utils.cpp > CMakeFiles/Test.dir/utils.cpp.i
 
 CMakeFiles/Test.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/utils.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/utils.cpp -o CMakeFiles/Test.dir/utils.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/utils.cpp -o CMakeFiles/Test.dir/utils.cpp.s
 
 CMakeFiles/Test.dir/utils.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Test.dir/utils.cpp.o.provides.build: CMakeFiles/Test.dir/utils.cpp.o
 
 CMakeFiles/Test.dir/ResultSet.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/ResultSet.cpp.o: ../ResultSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/ResultSet.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/ResultSet.cpp.o -c /Users/arisemery/CLionProjects/ITAK/ResultSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/ResultSet.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/ResultSet.cpp.o -c /Users/arisemery/CLionProjects/HW8/ResultSet.cpp
 
 CMakeFiles/Test.dir/ResultSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/ResultSet.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/ResultSet.cpp > CMakeFiles/Test.dir/ResultSet.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/ResultSet.cpp > CMakeFiles/Test.dir/ResultSet.cpp.i
 
 CMakeFiles/Test.dir/ResultSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/ResultSet.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/ResultSet.cpp -o CMakeFiles/Test.dir/ResultSet.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/ResultSet.cpp -o CMakeFiles/Test.dir/ResultSet.cpp.s
 
 CMakeFiles/Test.dir/ResultSet.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Test.dir/ResultSet.cpp.o.provides.build: CMakeFiles/Test.dir/ResultSe
 
 CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o: ../DenialOfServiceAnalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o -c /Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o -c /Users/arisemery/CLionProjects/HW8/DenialOfServiceAnalyzer.cpp
 
 CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.cpp > CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/DenialOfServiceAnalyzer.cpp > CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.i
 
 CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.cpp -o CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/DenialOfServiceAnalyzer.cpp -o CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.s
 
 CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.o.provides.build: CMakeFiles/Tes
 
 CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o: ../PortScanAnalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o -c /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o -c /Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.cpp
 
 CMakeFiles/Test.dir/PortScanAnalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/PortScanAnalyzer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.cpp > CMakeFiles/Test.dir/PortScanAnalyzer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.cpp > CMakeFiles/Test.dir/PortScanAnalyzer.cpp.i
 
 CMakeFiles/Test.dir/PortScanAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/PortScanAnalyzer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.cpp -o CMakeFiles/Test.dir/PortScanAnalyzer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.cpp -o CMakeFiles/Test.dir/PortScanAnalyzer.cpp.s
 
 CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Test.dir/PortScanAnalyzer.cpp.o.provides.build: CMakeFiles/Test.dir/P
 
 CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o: ../Testing/DenialOfServiceAnalyzerTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o -c /Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o -c /Users/arisemery/CLionProjects/HW8/Testing/DenialOfServiceAnalyzerTester.cpp
 
 CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.cpp > CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/Testing/DenialOfServiceAnalyzerTester.cpp > CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.cpp -o CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/Testing/DenialOfServiceAnalyzerTester.cpp -o CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Test.dir/Testing/DenialOfServiceAnalyzerTester.cpp.o.provides.build: 
 
 CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o: ../Testing/PortScanAnalyzerTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o -c /Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o -c /Users/arisemery/CLionProjects/HW8/Testing/PortScanAnalyzerTester.cpp
 
 CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.cpp > CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/Testing/PortScanAnalyzerTester.cpp > CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.cpp -o CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/Testing/PortScanAnalyzerTester.cpp -o CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o: ../Testing/ResultSetTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o -c /Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o -c /Users/arisemery/CLionProjects/HW8/Testing/ResultSetTester.cpp
 
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.cpp > CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arisemery/CLionProjects/HW8/Testing/ResultSetTester.cpp > CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.cpp -o CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arisemery/CLionProjects/HW8/Testing/ResultSetTester.cpp -o CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o.requires:
 
@@ -325,7 +325,7 @@ Test: CMakeFiles/Test.dir/Testing/PortScanAnalyzerTester.cpp.o
 Test: CMakeFiles/Test.dir/Testing/ResultSetTester.cpp.o
 Test: CMakeFiles/Test.dir/build.make
 Test: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -351,6 +351,6 @@ CMakeFiles/Test.dir/clean:
 .PHONY : CMakeFiles/Test.dir/clean
 
 CMakeFiles/Test.dir/depend:
-	cd /Users/arisemery/CLionProjects/ITAK/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arisemery/CLionProjects/ITAK /Users/arisemery/CLionProjects/ITAK /Users/arisemery/CLionProjects/ITAK/cmake-build-debug /Users/arisemery/CLionProjects/ITAK/cmake-build-debug /Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/arisemery/CLionProjects/HW8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arisemery/CLionProjects/HW8 /Users/arisemery/CLionProjects/HW8 /Users/arisemery/CLionProjects/HW8/cmake-build-debug /Users/arisemery/CLionProjects/HW8/cmake-build-debug /Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Test.dir/depend
 

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug"/>
+				<Option working_dir="/Users/arisemery/CLionProjects/HW8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug"/>
+				<Option working_dir="/Users/arisemery/CLionProjects/HW8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug"/>
+				<Option working_dir="/Users/arisemery/CLionProjects/HW8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test">
-				<Option output="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug"/>
+				<Option output="/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arisemery/CLionProjects/HW8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test/fast">
-				<Option output="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug"/>
+				<Option output="/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arisemery/CLionProjects/HW8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,15 +73,15 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ITAK">
-				<Option output="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug"/>
+				<Option output="/Users/arisemery/CLionProjects/HW8/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arisemery/CLionProjects/HW8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -94,15 +94,15 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ITAK/fast">
-				<Option output="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arisemery/CLionProjects/ITAK/cmake-build-debug"/>
+				<Option output="/Users/arisemery/CLionProjects/HW8/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arisemery/CLionProjects/HW8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,96 +115,96 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/arisemery/CLionProjects/HW8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Analyzer.cpp">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Analyzer.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Analyzer.h">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Analyzer.h">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Configuration.cpp">
-			<Option target="Test"/>
-			<Option target="ITAK"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Configuration.h">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Configuration.cpp">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.cpp">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Configuration.h">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.h">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/DenialOfServiceAnalyzer.cpp">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Dictionary.h">
-			<Option target="ITAK"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/KeyValue.h">
-			<Option target="ITAK"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.cpp">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/DenialOfServiceAnalyzer.h">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.h">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Dictionary.h">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/KeyValue.h">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.cpp">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/ResultSet.cpp">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.h">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/ResultSet.h">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/ResultSet.cpp">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/ConfigurationTester.h">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/DenialOfServiceAnalyzerTester.h">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/PortScanAnalyzerTester.h">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/ResultSetTester.h">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/Testing/testMain.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/main.cpp">
-			<Option target="ITAK"/>
-		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/utils.cpp">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/ResultSet.h">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/utils.h">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/ConfigurationTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/ConfigurationTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/DenialOfServiceAnalyzerTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/DenialOfServiceAnalyzerTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/PortScanAnalyzerTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/PortScanAnalyzerTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/ResultSetTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/ResultSetTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/testMain.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/main.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/utils.cpp">
 			<Option target="Test"/>
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/arisemery/CLionProjects/ITAK/CMakeLists.txt">
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/utils.h">
+			<Option target="Test"/>
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

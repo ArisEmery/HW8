@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arisemery/CLionProjects/ITAK
+# Install script for directory: /Users/arisemery/CLionProjects/HW8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

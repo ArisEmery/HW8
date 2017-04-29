@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arisemery/CLionProjects/ITAK/Analyzer.cpp" "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/Analyzer.cpp.o"
-  "/Users/arisemery/CLionProjects/ITAK/Configuration.cpp" "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/Configuration.cpp.o"
-  "/Users/arisemery/CLionProjects/ITAK/DenialOfServiceAnalyzer.cpp" "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o"
-  "/Users/arisemery/CLionProjects/ITAK/PortScanAnalyzer.cpp" "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o"
-  "/Users/arisemery/CLionProjects/ITAK/ResultSet.cpp" "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/ResultSet.cpp.o"
-  "/Users/arisemery/CLionProjects/ITAK/main.cpp" "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/main.cpp.o"
-  "/Users/arisemery/CLionProjects/ITAK/utils.cpp" "/Users/arisemery/CLionProjects/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/utils.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/Analyzer.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/Analyzer.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/Configuration.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/Configuration.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/DenialOfServiceAnalyzer.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/ResultSet.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/ResultSet.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/main.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/main.cpp.o"
+  "/Users/arisemery/CLionProjects/HW8/utils.cpp" "/Users/arisemery/CLionProjects/HW8/cmake-build-debug/CMakeFiles/ITAK.dir/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
