@@ -201,6 +201,12 @@
 		<Unit filename="/Users/arisemery/CLionProjects/HW8/Testing/testMain.cpp">
 			<Option target="Test"/>
 		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/UserInterface.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/Users/arisemery/CLionProjects/HW8/UserInterface.h">
+			<Option target="ITAK"/>
+		</Unit>
 		<Unit filename="/Users/arisemery/CLionProjects/HW8/main.cpp">
 			<Option target="ITAK"/>
 		</Unit>

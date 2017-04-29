@@ -74,13 +74,13 @@ Dictionary.h
 vector
 -
 
-/Users/arisemery/CLionProjects/HW8/Utils.h
-string
--
-fstream
--
+/Users/arisemery/CLionProjects/HW8/UserInterface.cpp
+UserInterface.h
+/Users/arisemery/CLionProjects/HW8/UserInterface.h
 
-/Users/arisemery/CLionProjects/HW8/main.cpp
+/Users/arisemery/CLionProjects/HW8/UserInterface.h
+UserInterface.h
+/Users/arisemery/CLionProjects/HW8/UserInterface.h
 iostream
 -
 Dictionary.h
@@ -105,6 +105,16 @@ PortScanAnalyzer.h
 /Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.h
 newAnalyzer.h
 /Users/arisemery/CLionProjects/HW8/newAnalyzer.h
+
+/Users/arisemery/CLionProjects/HW8/Utils.h
+string
+-
+fstream
+-
+
+/Users/arisemery/CLionProjects/HW8/main.cpp
+UserInterface.h
+/Users/arisemery/CLionProjects/HW8/UserInterface.h
 
 /Users/arisemery/CLionProjects/HW8/newAnalyzer.cpp
 newAnalyzer.h

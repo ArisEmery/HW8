@@ -448,6 +448,33 @@ Testing/testMain.cpp.s:
 	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/testMain.cpp.s
 .PHONY : Testing/testMain.cpp.s
 
+UserInterface.o: UserInterface.cpp.o
+
+.PHONY : UserInterface.o
+
+# target to build an object file
+UserInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/UserInterface.cpp.o
+.PHONY : UserInterface.cpp.o
+
+UserInterface.i: UserInterface.cpp.i
+
+.PHONY : UserInterface.i
+
+# target to preprocess a source file
+UserInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/UserInterface.cpp.i
+.PHONY : UserInterface.cpp.i
+
+UserInterface.s: UserInterface.cpp.s
+
+.PHONY : UserInterface.s
+
+# target to generate assembly for a file
+UserInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/UserInterface.cpp.s
+.PHONY : UserInterface.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -578,6 +605,9 @@ help:
 	@echo "... Testing/testMain.o"
 	@echo "... Testing/testMain.i"
 	@echo "... Testing/testMain.s"
+	@echo "... UserInterface.o"
+	@echo "... UserInterface.i"
+	@echo "... UserInterface.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

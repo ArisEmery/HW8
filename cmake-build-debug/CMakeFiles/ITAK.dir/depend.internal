@@ -37,6 +37,17 @@ CMakeFiles/ITAK.dir/ResultSet.cpp.o
  /Users/arisemery/CLionProjects/HW8/KeyValue.h
  /Users/arisemery/CLionProjects/HW8/ResultSet.cpp
  /Users/arisemery/CLionProjects/HW8/ResultSet.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o
+ /Users/arisemery/CLionProjects/HW8/Analyzer.h
+ /Users/arisemery/CLionProjects/HW8/Configuration.h
+ /Users/arisemery/CLionProjects/HW8/Dictionary.h
+ /Users/arisemery/CLionProjects/HW8/KeyValue.h
+ /Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.h
+ /Users/arisemery/CLionProjects/HW8/ResultSet.h
+ /Users/arisemery/CLionProjects/HW8/UserInterface.cpp
+ /Users/arisemery/CLionProjects/HW8/UserInterface.h
+ /Users/arisemery/CLionProjects/HW8/newAnalyzer.h
+ /Users/arisemery/CLionProjects/HW8/utils.h
 CMakeFiles/ITAK.dir/main.cpp.o
  /Users/arisemery/CLionProjects/HW8/Analyzer.h
  /Users/arisemery/CLionProjects/HW8/Configuration.h
@@ -44,6 +55,7 @@ CMakeFiles/ITAK.dir/main.cpp.o
  /Users/arisemery/CLionProjects/HW8/KeyValue.h
  /Users/arisemery/CLionProjects/HW8/PortScanAnalyzer.h
  /Users/arisemery/CLionProjects/HW8/ResultSet.h
+ /Users/arisemery/CLionProjects/HW8/UserInterface.h
  /Users/arisemery/CLionProjects/HW8/main.cpp
  /Users/arisemery/CLionProjects/HW8/newAnalyzer.h
  /Users/arisemery/CLionProjects/HW8/utils.h

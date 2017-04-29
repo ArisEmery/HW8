@@ -37,12 +37,24 @@ CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../KeyValue.h
 CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../ResultSet.cpp
 CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../ResultSet.h
 
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Analyzer.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Configuration.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Dictionary.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../KeyValue.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../PortScanAnalyzer.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../ResultSet.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../UserInterface.cpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../UserInterface.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../newAnalyzer.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../utils.h
+
 CMakeFiles/ITAK.dir/main.cpp.o: ../Analyzer.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../Configuration.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../Dictionary.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../KeyValue.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../PortScanAnalyzer.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../ResultSet.h
+CMakeFiles/ITAK.dir/main.cpp.o: ../UserInterface.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ITAK.dir/main.cpp.o: ../newAnalyzer.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../utils.h
